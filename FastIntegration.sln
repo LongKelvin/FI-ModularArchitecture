@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastIntegration.DaimlerClient", "FastIntegration.DaimlerClient\FastIntegration.DaimlerClient.csproj", "{EE17D880-9159-424B-AAD2-A81F33333179}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client Application", "Client Application", "{7F82D17F-CC0F-4287-B7C3-8CCB570C3C07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{43F6B796-0C0C-4728-9C53-EE3225009106}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core Modules", "Core Modules", "{8DEE9F6F-1E37-4F84-9D9F-3E450475468C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE17D880-9159-424B-AAD2-A81F33333179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE17D880-9159-424B-AAD2-A81F33333179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE17D880-9159-424B-AAD2-A81F33333179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE17D880-9159-424B-AAD2-A81F33333179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE17D880-9159-424B-AAD2-A81F33333179} = {7F82D17F-CC0F-4287-B7C3-8CCB570C3C07}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E2EE097-A1DC-4827-90C6-40558832FEDC}
+	EndGlobalSection
+EndGlobal
