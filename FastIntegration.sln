@@ -3,13 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34607.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastIntegration.DaimlerClient", "FastIntegration.DaimlerClient\FastIntegration.DaimlerClient.csproj", "{EE17D880-9159-424B-AAD2-A81F33333179}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client Application", "Client Application", "{7F82D17F-CC0F-4287-B7C3-8CCB570C3C07}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{43F6B796-0C0C-4728-9C53-EE3225009106}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core Modules", "Core Modules", "{8DEE9F6F-1E37-4F84-9D9F-3E450475468C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastIntegration.Models", "FastIntegration.Models\FastIntegration.Models.csproj", "{76689456-8E5C-48D3-BF6F-4C5AF8F75BFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastIntegration.ExceptionHandler", "FastIntegration.ExceptionHandler\FastIntegration.ExceptionHandler.csproj", "{7F78C8F4-8783-4E6A-8EBC-97CA6B7B4CC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastIntegration.LogManager", "FastIntegration.LogManager\FastIntegration.LogManager.csproj", "{85482BEE-C8FD-46D5-93FE-1EF688EA318B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastIntegration.Helper", "FastIntegration.Helper\FastIntegration.Helper.csproj", "{43BB5665-2827-4E48-9CDE-09E6A3E6E6F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastIntegration.DriveMonitor", "FastIntegration.DriveMonitor\FastIntegration.DriveMonitor.csproj", "{6EB6B5E4-C7F6-4F15-9D49-756B31BEAFA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastIntegration.FileSystemUtilities", "FastIntegration.FileSystemUtilities\FastIntegration.FileSystemUtilities.csproj", "{A2DCF413-B32F-4ABC-A997-5D821496CBA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastIntegration.TaskManager", "FastIntegration.TaskManager\FastIntegration.TaskManager.csproj", "{E5C66C8E-6502-48BB-8E5E-2D3DE3390E7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastIntegration.ConfigurationManager", "FastIntegration.ConfigurationManager\FastIntegration.ConfigurationManager.csproj", "{6F44641E-3A32-4853-ABA4-69BE49E18123}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FI Services", "FI Services", "{2167F9FE-35B9-4056-AB01-E6B7CE5C3352}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskPerfomers", "TaskPerfomers", "{C9A08044-0E20-4AC4-8A56-BF13DEF47CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastIntegration.DaimlerFI", "FastIntegration.DaimlerFI\FastIntegration.DaimlerFI.csproj", "{D6631710-93F4-4443-BEB8-8CA63BEFDBB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastIntergration.WorkerService", "FastIntergration.WorkerService\FastIntergration.WorkerService.csproj", "{D4519AAC-5BF9-4B6A-8A95-81D492C79EDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,16 +37,61 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE17D880-9159-424B-AAD2-A81F33333179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE17D880-9159-424B-AAD2-A81F33333179}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE17D880-9159-424B-AAD2-A81F33333179}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE17D880-9159-424B-AAD2-A81F33333179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76689456-8E5C-48D3-BF6F-4C5AF8F75BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76689456-8E5C-48D3-BF6F-4C5AF8F75BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76689456-8E5C-48D3-BF6F-4C5AF8F75BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76689456-8E5C-48D3-BF6F-4C5AF8F75BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F78C8F4-8783-4E6A-8EBC-97CA6B7B4CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F78C8F4-8783-4E6A-8EBC-97CA6B7B4CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F78C8F4-8783-4E6A-8EBC-97CA6B7B4CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F78C8F4-8783-4E6A-8EBC-97CA6B7B4CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85482BEE-C8FD-46D5-93FE-1EF688EA318B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85482BEE-C8FD-46D5-93FE-1EF688EA318B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85482BEE-C8FD-46D5-93FE-1EF688EA318B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85482BEE-C8FD-46D5-93FE-1EF688EA318B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BB5665-2827-4E48-9CDE-09E6A3E6E6F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BB5665-2827-4E48-9CDE-09E6A3E6E6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BB5665-2827-4E48-9CDE-09E6A3E6E6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BB5665-2827-4E48-9CDE-09E6A3E6E6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB6B5E4-C7F6-4F15-9D49-756B31BEAFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB6B5E4-C7F6-4F15-9D49-756B31BEAFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB6B5E4-C7F6-4F15-9D49-756B31BEAFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB6B5E4-C7F6-4F15-9D49-756B31BEAFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DCF413-B32F-4ABC-A997-5D821496CBA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DCF413-B32F-4ABC-A997-5D821496CBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DCF413-B32F-4ABC-A997-5D821496CBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DCF413-B32F-4ABC-A997-5D821496CBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C66C8E-6502-48BB-8E5E-2D3DE3390E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C66C8E-6502-48BB-8E5E-2D3DE3390E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C66C8E-6502-48BB-8E5E-2D3DE3390E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C66C8E-6502-48BB-8E5E-2D3DE3390E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F44641E-3A32-4853-ABA4-69BE49E18123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F44641E-3A32-4853-ABA4-69BE49E18123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F44641E-3A32-4853-ABA4-69BE49E18123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F44641E-3A32-4853-ABA4-69BE49E18123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6631710-93F4-4443-BEB8-8CA63BEFDBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6631710-93F4-4443-BEB8-8CA63BEFDBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6631710-93F4-4443-BEB8-8CA63BEFDBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6631710-93F4-4443-BEB8-8CA63BEFDBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4519AAC-5BF9-4B6A-8A95-81D492C79EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4519AAC-5BF9-4B6A-8A95-81D492C79EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4519AAC-5BF9-4B6A-8A95-81D492C79EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4519AAC-5BF9-4B6A-8A95-81D492C79EDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{EE17D880-9159-424B-AAD2-A81F33333179} = {7F82D17F-CC0F-4287-B7C3-8CCB570C3C07}
+		{76689456-8E5C-48D3-BF6F-4C5AF8F75BFB} = {43F6B796-0C0C-4728-9C53-EE3225009106}
+		{7F78C8F4-8783-4E6A-8EBC-97CA6B7B4CC5} = {43F6B796-0C0C-4728-9C53-EE3225009106}
+		{85482BEE-C8FD-46D5-93FE-1EF688EA318B} = {43F6B796-0C0C-4728-9C53-EE3225009106}
+		{43BB5665-2827-4E48-9CDE-09E6A3E6E6F9} = {43F6B796-0C0C-4728-9C53-EE3225009106}
+		{6EB6B5E4-C7F6-4F15-9D49-756B31BEAFA1} = {8DEE9F6F-1E37-4F84-9D9F-3E450475468C}
+		{A2DCF413-B32F-4ABC-A997-5D821496CBA9} = {8DEE9F6F-1E37-4F84-9D9F-3E450475468C}
+		{E5C66C8E-6502-48BB-8E5E-2D3DE3390E7D} = {8DEE9F6F-1E37-4F84-9D9F-3E450475468C}
+		{6F44641E-3A32-4853-ABA4-69BE49E18123} = {8DEE9F6F-1E37-4F84-9D9F-3E450475468C}
+		{D6631710-93F4-4443-BEB8-8CA63BEFDBB6} = {C9A08044-0E20-4AC4-8A56-BF13DEF47CFB}
+		{D4519AAC-5BF9-4B6A-8A95-81D492C79EDE} = {2167F9FE-35B9-4056-AB01-E6B7CE5C3352}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E2EE097-A1DC-4827-90C6-40558832FEDC}
